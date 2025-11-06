@@ -1,6 +1,3 @@
-# ==== CREAR Y CONFIGURAR REPOSITORIO ====
-# Reemplaza TOKEN_GITHUB por tu token personal de acceso a GitHub
-# (Puedes generarlo en https://github.com/settings/tokens)
 
 # Variables del proyecto
 USER_GITHUB="willian134"
