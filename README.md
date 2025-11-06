@@ -1,16 +1,27 @@
-## Hi there 👋
+# ==== CREAR Y CONFIGURAR REPOSITORIO ====
+# Reemplaza TOKEN_GITHUB por tu token personal de acceso a GitHub
+# (Puedes generarlo en https://github.com/settings/tokens)
 
-<!--
-**willian134/willian134** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Variables del proyecto
+USER_GITHUB="willian134"
+REPO_NAME="mi-proyect"
+GITHUB_TOKEN="TOKEN_GITHUB"
 
-Here are some ideas to get you started:
+# Crear carpeta del proyecto
+mkdir $REPO_NAME
+cd $REPO_NAME
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+# ==== ARCHIVOS BASE ====
+
+# README.md
+cat << 'EOF' > README.md
+# mi-proyect
+
+Proyecto creado por **willian134**.
+
+## Descripción
+Este es un proyecto base en Python.
+
+## Ejecución
+```bash
+python src/main.py
